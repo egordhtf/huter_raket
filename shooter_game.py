@@ -66,7 +66,6 @@ class Bullet(GameSprite):
         if self.rect.y <0:
             self.kill()
 
-print(555)
 
 player = Player('bullet.png', win_width/2, win_height - 80, 15)
 monsters = sprite.Group()
