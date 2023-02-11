@@ -16,8 +16,6 @@ window = display.set_mode((win_width, win_height))
 display.set_caption('draganoid')
 image_jpg = transform.scale(image.load('galaxy.jpg'), (win_width, win_height))
 
-print(333)
-
 class GameSprite(sprite.Sprite):
     def __init__(self, player_image, player_x, player_y, player_speed):
         super().__init__()
